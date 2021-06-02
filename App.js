@@ -22,7 +22,7 @@ const Textbox = (props) => {
 
 }
 
-const Cat = (props) => {
+const ButtonComp = (props) => {
 
   return (
     <View>
@@ -58,7 +58,7 @@ const main = () => {
   return (
     <>
       <Textbox placeholder='type text here' />
-      <Cat name="Munkustrap" />
+      <ButtonComp name="Munkustrap" />
     </>
   )
 }
