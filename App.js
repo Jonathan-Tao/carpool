@@ -32,9 +32,9 @@ const ButtonComp = (props) => {
       <Button
         color="#841584"
         onPress={() => {
-          alert('fuck off');
+          alert(props.alert);
         }}
-        title = {"fun time"}
+        title = {props.title}
       />
     </View>
   );
