@@ -58,7 +58,7 @@ const main = () => {
   return (
     <>
       <Textbox placeholder='type text here' />
-      <ButtonComp name="Munkustrap" />
+      <ButtonComp alert = "shit" title="Munkustrap"/>
     </>
   )
 }
