@@ -83,7 +83,7 @@ const main = () => {
       <Textbox placeholder='Type your message here' style={styles.textbox} />
       <Textbox placeholder='Type the person you/re sending this to here' style={styles.smallerTextBox}/>
       <ButtonComp alert="shit" title="I will Pickup" />
-      <ButtonComp alert="shit" title="Munkustrap" />
+      <ButtonComp alert="shit" title="I cannot Pickup" />
     </>
   )
 }
