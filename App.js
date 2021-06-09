@@ -62,6 +62,12 @@ const styles = StyleSheet.create({
     fontWeight: 'normal',
     fontSize: 10,
     padding: 12
+  },
+  greenRegular: {
+    color: 'green',
+    fontWeight: 'normal',
+    fontSize: 10,
+    padding: 12
   }
 })
 
