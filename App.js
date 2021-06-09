@@ -68,6 +68,12 @@ const styles = StyleSheet.create({
     fontWeight: 'normal',
     fontSize: 10,
     padding: 12
+  },
+  blueRegular: {
+    color: 'blue',
+    fontWeight: 'normal',
+    fontSize: 10,
+    padding: 12
   }
 })
 
