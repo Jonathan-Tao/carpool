@@ -8,7 +8,7 @@ const Textbox = (props) => {
   return (
     <View>
       <TextInput
-        style={styles.textbox}
+        style={props.style}
         placeholder={props.placeholder}
         onChangeText={text => setText(text)}
         defaultValue={text}
@@ -66,11 +66,21 @@ const styles = StyleSheet.create({
     marginTop: 50,
     padding: 5,
   },
+  smallerTextBox: {
+    marginTop: 70,
+    padding: 20,
+  },
   blackRegular: {
-    color: 'red',
+    color: 'black',
     fontWeight: 'normal',
     fontSize: 10,
     padding: 10
+  },
+  redRegular: {
+    color: 'red',
+    fontWeight: 'normal',
+    fontSize: 10,
+    padding: 12
   }
 })
 
@@ -78,7 +88,8 @@ const main = () => {
   return (
     <>
       <Map />
-      <Textbox placeholder='type text here' />
+      <Textbox placeholder='Type your message here' style={styles.textbox} />
+      <Textbox placeholder='Type the person you/re sending this to here' style={styles.smallerTextBox}/>
       <ButtonComp alert="shit" title="Munkustrap" />
     </>
   )
