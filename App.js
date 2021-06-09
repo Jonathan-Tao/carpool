@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Text, TextInput, View, StyleSheet, Button } from 'react-native';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import MapView from 'react-native-maps';
 
 const Textbox = (props) => {
   const [text, setText] = useState('')
