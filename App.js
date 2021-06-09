@@ -36,6 +36,7 @@ const ButtonComp = (props) => {
           alert(props.alert);
         }}
         title={props.title}
+        style={props.style}
       />
     </View>
   );
