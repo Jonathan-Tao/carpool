@@ -22,9 +22,6 @@ const ButtonComp = (props) => {
 
   return (
     <View>
-      <Text style={styles.blackRegular, { padding: 10 }}>
-        I am person who is cool
-      </Text>
       <Button
         color="#841584"
         onPress={() => {
