@@ -98,10 +98,9 @@ const main = () => {
   return (
     <>
       <Textbox placeholder='Type your message here' style={styles.textbox} />
-      <Textbox placeholder='Type the person you/re sending this to here' style={styles.smallerTextBox} />
-      <ButtonComp alert="shit" title="I will Pickup" />
-      <ButtonComp alert="shit" title="I cannot Pickup" />
-      <Map latitude = "37.78825" longitude = "-122.4324" />
+      <ButtonComp alert="Picking up" title="I will Pickup" />
+      <ButtonComp alert="Not Picking up" title="I cannot Pickup" />
+      <Map latitude = {37.78825} longitude = {-122.4324} />
     </>
   )
 }
