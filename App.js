@@ -13,11 +13,6 @@ const Textbox = (props) => {
         onChangeText={text => setText(text)}
         defaultValue={text}
       />
-
-      <Text style={styles.blackRegular}>
-        {text.split(' ').map((word) => word && '🍕').join(' ')}
-      </Text>
-
     </View>
   )
 
