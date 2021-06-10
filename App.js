@@ -71,7 +71,6 @@ const styles = StyleSheet.create({
 const main = () => {
   return (
     <>
-      <Textbox placeholder='Type your message here' style={styles.textbox} />
       <ButtonComp alert="Picking up" title="I will Pickup" />
       <ButtonComp alert="Not Picking up" title="I cannot Pickup" />
       <Map latitude = {37.78825} longitude = {-122.4324} />
